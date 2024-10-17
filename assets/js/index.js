@@ -6,7 +6,7 @@ $(document).ready(function() {
     let interes = $('#interes')[0].valueAsNumber/ 100;
 
     if(isNaN(monto)|| isNaN(cuotas) || isNaN(interes) || cuotas <= 0) {
-        $('#resultado').html('<span style ="color: #5543ca;">Por favor, ingresa valores validos </span>')
+        $('#result').html('<span style ="color: #5543ca;">Por favor, ingresa valores validos </span>')
         return;
     }
     let interestotal = monto * interes * cuotas;
