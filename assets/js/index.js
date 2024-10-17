@@ -18,7 +18,6 @@ $(document).ready(function() {
     let nuevovalorcuota = valorcuota.toLocaleString('es-CL', {style: 'currency', currency: 'CLP'});
     let nuevomontofinal = montofinal.toLocaleString('es-CL', { style: 'currency', currency: 'CLP'});
     $('#result').html(`<p>¡No te preocupes puedes pagarlo en coutas ${cuotas} de ${nuevovalorcuota} </p>`)
-    $('#total').html(`El monto total a pagar será ${nuevomontofinal}`)
     })
 })
 
